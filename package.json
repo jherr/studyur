@@ -1,7 +1,19 @@
 {
-  "name": "studyur-mr",
-  "version": "0.0.0",
+  "name": "solidjs-hackathon-studyur-mr",
+  "version": "1.0.0",
+  "description": "SolidJS web application for learning resources.",
+  "info": "A SolidJS based web application and chrome extension where users can keep curated lists of YouTube and Medium references in topics.",
   "private": true,
+  "homepage": "https://github.com/jherr/studyur",
+  "contributors": [
+    {
+      "name": "Jack Herrington",
+      "email": "jherr@pobox.com",
+      "url": "https://www.jackherrington.com"
+    }
+  ],
+  "keywords": ["solidhack", "best_app"],
+  "license": "MIT",
   "workspaces": {
     "packages": [
       "apps/*",
