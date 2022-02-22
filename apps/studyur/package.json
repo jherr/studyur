@@ -1,0 +1,45 @@
+{
+  "name": "studyur",
+  "version": "0.0.0",
+  "description": "",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/dropzone": "^5.7.4",
+    "@types/youtube-player": "^5.5.5",
+    "autoprefixer": "^10.4.2",
+    "postcss": "^8.4.5",
+    "reporter-tippy": "link:@types/@felte/reporter-tippy",
+    "tailwindcss": "^3.0.12",
+    "tsconfig": "workspace:*",
+    "typescript": "^4.5.4",
+    "validator-yup": "link:@types/@felte/validator-yup",
+    "vite": "^2.7.10",
+    "vite-plugin-solid": "^2.2.1"
+  },
+  "dependencies": {
+    "@felte/reporter-tippy": "^0.3.12",
+    "@felte/solid": "^0.3.0",
+    "@felte/validator-yup": "^0.2.13",
+    "@studyur/firebase": "workspace:*",
+    "@studyur/ui": "workspace:*",
+    "@tailwindcss/aspect-ratio": "^0.4.0",
+    "@tailwindcss/forms": "^0.4.0",
+    "dropzone": "^6.0.0-beta.2",
+    "firebase": "^9.6.2",
+    "nanoid": "^3.2.0",
+    "solid-app-router": "^0.2.0",
+    "solid-firebase": "workspace:*",
+    "solid-headless": "^0.10.12",
+    "solid-heroicons": "^1.1.1",
+    "solid-js": "^1.3.1",
+    "solid-youtube": "workspace:*",
+    "tippy.js": "^6.3.7",
+    "yup": "^0.32.11"
+  }
+}

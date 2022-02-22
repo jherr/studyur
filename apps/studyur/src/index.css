@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  position: relative;
+}
+
+input,
+textarea,
+select {
+  display: block;
+  margin: 8px 0;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+  display: inline;
+}
+
+img {
+  display: block;
+}
+
+fieldset {
+  margin: 24px 0;
+}
+
+.tag {
+  display: flex;
+  align-items: center;
+}
+
+.tag button {
+  height: 20px;
+}

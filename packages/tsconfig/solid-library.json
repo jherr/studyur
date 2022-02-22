@@ -1,0 +1,7 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "display": "Solid Library",
+  "extends": "./solid.json",
+  "compilerOptions": {
+  }
+}
